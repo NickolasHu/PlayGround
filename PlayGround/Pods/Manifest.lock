@@ -1,0 +1,13 @@
+PODS:
+  - DRDynamicSlideShow (1.0.1)
+  - FLEX (1.1.1)
+
+DEPENDENCIES:
+  - DRDynamicSlideShow
+  - FLEX (~> 1.1)
+
+SPEC CHECKSUMS:
+  DRDynamicSlideShow: 3e89961da516b2f017eb0506f726695dadd88e62
+  FLEX: 371244c03c4a724a0aa14a3714e463004235c773
+
+COCOAPODS: 0.33.1
