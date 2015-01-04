@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <DRDynamicSlideShow.h>
 
 @interface ViewController ()
 
@@ -16,12 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    UIView *dview = [[DRDynamicSlideShow alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:dview];
 }
 
 @end
